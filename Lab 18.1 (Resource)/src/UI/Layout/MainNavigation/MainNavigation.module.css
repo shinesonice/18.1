@@ -1,0 +1,27 @@
+header {
+  background-color: #008080;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 8rem;
+  color: white;
+}
+.logo {
+  margin: 0px;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #6ad5d6;
+}
+.link:active {
+}
+.activeClassName {
+  color: #daead4;
+  text-decoration: solid;
+}
